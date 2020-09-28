@@ -395,3 +395,9 @@ i.mail::after {
     margin: 1em 4em 0 4em;
   }
 }
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
