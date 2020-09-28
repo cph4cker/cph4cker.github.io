@@ -401,3 +401,27 @@ i.mail::after {
   max-width: 400px;
   height: auto;
 }
+
+.list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.item {
+  -webkit-flex: 1 auto;
+  flex: 1 auto;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 10px;
+}
+
+.item a {
+  display: block;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+}
